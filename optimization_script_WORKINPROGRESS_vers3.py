@@ -10,7 +10,7 @@ from pulp import *
 import pandas as pd
 import numpy as np
 
-nfl_data=pd.read_csv(r'C:\Users\jmo5660\nfl_data\kubiak2.csv')
+nfl_data=pd.read_csv(r'filepath\kubiak2.csv')
 nfl_data = nfl_data.loc[nfl_data['Pos.'] != "K"]
 nfl_data = nfl_data.loc[nfl_data['Pos.'] != "D"]
 
